@@ -1,0 +1,29 @@
+.App_cold{
+  background-image: url('cold.webp');
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+
+.App_hot{
+  background-image: url('hot.jpg');
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+.data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  flex-direction: column;
+  color: cadetblue;
+}
+.header {
+  /* margin: 200px; */
+  padding: 30px;
+  font-size: 40px;
+}
