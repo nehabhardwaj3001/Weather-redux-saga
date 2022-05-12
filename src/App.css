@@ -11,39 +11,6 @@
   height: 100vh;
   text-align: center;
 }
-.data_hot{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 3px solid black;
-  width: 500px;
-  height: 300px;
-  margin: auto;
-  flex-direction: column;
-  background-image: url('hot.jpg');
-  color:rgb(39, 99, 211);
-  margin-top: 30px  ;
-  border-radius:10px;
-  font-family:cursive;
-  font-style: italic;
-}
-
-.data_cold{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 3px solid black;
-  width: 500px;
-  height: 300px;
-  margin: auto;
-  flex-direction: column;
-  background-image: url('cold1.jpg');
-  color:rgb(18, 57, 129);
-  margin-top: 30px  ;
-  border-radius:10px;
-  
-
-}
 
 .header {
   /* margin: 200px; */
@@ -52,8 +19,73 @@
   font-style: italic;
   font-family: 'Titillium Web', sans-serif;
   color:blue;
+  
 }
 
 .textfield{
   margin-top: 0px;
+}
+
+.data_hot{
+  background-color: rgba(244, 228, 279, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid black; */
+  width: 500px; 
+   height: 300px;
+  margin: auto;
+  flex-direction: column;
+  /* background-image: url('hot.jpg'); */
+  color:rgb(39, 99, 211);
+  margin-top: 30px  ;
+  border-radius:10px;
+  font-family:cursive;
+  font-style: italic;
+  /* background-size: cover; */
+}
+
+.data_cold{
+  background-color: rgba(244, 228, 279, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid black; */
+  width: 500px; 
+   height: 300px;
+  margin: auto;
+  flex-direction: column;
+  /* background-image: url('hot.jpg'); */
+  color:rgb(39, 99, 211);
+  margin-top: 30px  ;
+  border-radius:10px;
+  font-family:cursive;
+  font-style: italic;
+  /* background-size: cover; */
+}
+
+.data{
+  background-image: url('weather-image.jpg');
+  margin: auto;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+
+.commom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid black; */
+  width: 500px; 
+   height: 300px;
+  margin: auto;
+  flex-direction: column;
+  /* background-image: url('hot.jpg'); */
+  color:rgb(39, 99, 211);
+  margin-top: 30px  ;
+  border-radius:10px;
+  font-family:cursive;
+  font-style: italic;
+  /* background-size: cover; */
 }
