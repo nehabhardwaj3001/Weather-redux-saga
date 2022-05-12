@@ -1,5 +1,5 @@
 .App_cold{
-  background-image: url('cold.webp');
+  background-image: url('cold1.jpg');
   background-size: cover;
   height: 100vh;
   text-align: center;
@@ -11,7 +11,7 @@
   height: 100vh;
   text-align: center;
 }
-.data{
+.data_hot{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,10 +20,40 @@
   height: 300px;
   margin: auto;
   flex-direction: column;
-  color: cadetblue;
+  background-image: url('hot.jpg');
+  color:rgb(39, 99, 211);
+  margin-top: 30px  ;
+  border-radius:10px;
+  font-family:cursive;
+  font-style: italic;
 }
+
+.data_cold{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  flex-direction: column;
+  background-image: url('cold1.jpg');
+  color:rgb(18, 57, 129);
+  margin-top: 30px  ;
+  border-radius:10px;
+  
+
+}
+
 .header {
   /* margin: 200px; */
-  padding: 30px;
-  font-size: 40px;
+  padding-top: 30px;
+  font-size: 50px;
+  font-style: italic;
+  font-family: 'Titillium Web', sans-serif;
+  color:blue;
+}
+
+.textfield{
+  margin-top: 0px;
 }

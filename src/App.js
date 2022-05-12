@@ -24,8 +24,9 @@ console.log("state...", state)
     <div  className={state?.data?.main?.temp_max-273 > 30 ? "App_hot" : "App_cold"}>
       <h2 className='header'> Weather App </h2>
       <form noValidate autoComplete='off'>
-        <TextField id="outlined-basic"
-          label=""
+        <TextField className='textfield'
+          id="outlined-basic"
+          label="city"
           variant="outlined"
           type="text"
           value={search}
@@ -39,10 +40,10 @@ console.log("state...", state)
       </form>
      
       {
-     <div className='data'>
+     <div className={state?.data?.main?.temp_max-273 > 30 ? "data_hot" : "data_cold"}>
           <h1>{state?.data?.name}</h1>
-          <h2><span>Max-temp- </span>{(state?.data?.main?.temp_max-273)?.toFixed(2)}</h2>
-          <h2><span>Min-temp- </span>{(state?.data?.main?.temp_min-273)?.toFixed(2)}</h2>
+          <h2><span>Max-Temp:- </span>{(state?.data?.main?.temp_max-273)?.toFixed(2)}C</h2>
+          <h2><span>Min-Temp:- </span>{(state?.data?.main?.temp_min-273)?.toFixed(2)}C</h2>
           <h2>{state?.data?.weather[0]?.main}</h2>
         </div>}
     </div>
